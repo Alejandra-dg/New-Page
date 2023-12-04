@@ -4,6 +4,12 @@ h1{
     text-align: center;
 }
 
+h2{
+    color: rgb(24, 112, 112);
+    font-size: 50;
+    text-align: center;
+}
+
 *{
     margin: 0;
     padding: 0;
