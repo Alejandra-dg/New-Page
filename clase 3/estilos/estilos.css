@@ -1,0 +1,11 @@
+h1{
+    color: rgb(43, 154, 182);
+    font-size: 50px;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
