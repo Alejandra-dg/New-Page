@@ -5,21 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Carrusek</title>
+    <title>Carrusel</title>
 </head>
 
 <body>
     <!-- dos selectores estpan el selector ID Y EL CLASS copiamos div. y automanticamente pone la class
      -->
     <div class="contenedorCarrusel">
-        <section class="itemCar">
+        <section class="itemCar uno" id="itemUno">
             <div class="contenidoCar">
-                <h1>Hola</h1>
+                <h1>Bienvenido</h1>
             </div>
             <!-- Se ingresara el contenido de toda la sección  -->
             <div class="flechasCar">
-                <a href="#">I</a>
-                <a href="#">D</a>
+                <a href="#itemTres"><img src="./img/Flecha2.png"></a>
+                <a href="#itemDos"><img src="./img/Flecha1.png"></a>
+            </div>
+        </section>
+
+        <!-- --------------------------------- -->
+        <section class="itemCar dos" id="itemDos">
+            <div class="contenidoCar">
+                <h1>Primer</h1>
+            </div>
+            <!-- Se ingresara el contenido de toda la sección  -->
+            <div class="flechasCar">
+                <a href="#itemUno"><img src="./img/Flecha2.png"></a>
+                <a href="#itemTres"><img src="./img/Flecha1.png"></a>
+            </div>
+        </section>
+
+        <!-- --------------------------------- -->
+
+        <section class="itemCar tres" id="itemTres">
+            <div class="contenidoCar">
+                <h1>Carrusel</h1>
+            </div>
+            <!-- Se ingresara el contenido de toda la sección  -->
+            <div class="flechasCar">
+                <a href="#itemDos"><img src="./img/Flecha2.png"></a>
+                <a href="#itemUno"><img src="./img/Flecha1.png"></a>
             </div>
         </section>
     </div>

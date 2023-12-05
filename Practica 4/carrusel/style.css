@@ -1,3 +1,66 @@
-body{
-    background-color: aquamarine;
+/* Encargado del fondo de la pagina  */
+/* body{
+    background-color: rgb(166, 173, 171);
+} */
+
+/* Cambiar estilo a toda la pagina con * que es global */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ponemos la parte del div que queremos editar con el nombre de la clase */
+.contenedorCarrusel{
+    background-color: rgb(184, 209, 201);
+    /* border: 5px, solid, black; */
+    /* width: 100vw;   vw es un porcentaje significa la vista en horizontal (ancho), en reponsi.
+    height: 100vh es un porcentaje significa la vista en vertical (alto), en reponsi.;
+    height: 300px; en pixeles
+    height: 50% porcentaje basado en las dimensiones del padre */
+    height: 300px;
+    /* /* este se utiliza para que el contenido se vuelva uno */
+    overflow: hidden; 
+} 
+
+
+.itemCar{
+    background-color: rgb(48, 173, 173) ;
+    /* Posiciones en CSS son posiciones relativas, viene por bloques */
+    /* position:relative ; 
+    heoght: 100%*/
+    position: relative;
+    height: 100%;
+}
+
+section.itemCar.uno{
+    background-color: rgb(241, 235, 141);
+}
+
+section.itemCar.dos{
+    background-color: rgb(203, 162, 241);
+}
+
+section.itemCar.tres{
+    background-color: rgb(147, 229, 243);
+}
+
+/* .contenidoCar{
+    background-color: rgba(59, 230, 230);
+    height: 100%;
+} */
+
+.flechasCar{
+    /* cuarto numero es la transparencia */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+
 }
