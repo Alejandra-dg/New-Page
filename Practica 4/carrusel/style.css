@@ -11,6 +11,29 @@
     box-sizing: border-box;
 }
 
+.section.itemCar.uno,h1{
+    color: rgb(161, 13, 167);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.section.itemCar.uno,h2{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section.itemCar.uno,p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:cursive
+}
+
+
+
+
+
 /* ponemos la parte del div que queremos editar con el nombre de la clase */
 .contenedorCarrusel{
     background-color: rgb(184, 209, 201);
@@ -19,7 +42,8 @@
     height: 100vh es un porcentaje significa la vista en vertical (alto), en reponsi.;
     height: 300px; en pixeles
     height: 50% porcentaje basado en las dimensiones del padre */
-    height: 300px;
+    height: 900px;
+    
     /* /* este se utiliza para que el contenido se vuelva uno */
     overflow: hidden; 
 } 
@@ -35,7 +59,8 @@
 }
 
 section.itemCar.uno{
-    background-color: rgb(241, 235, 141);
+    background-color: rgb(230, 223, 221);
+    text-align: center;
 }
 
 section.itemCar.dos{
@@ -61,6 +86,8 @@ section.itemCar.tres{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+
+    /* CREAR UN LIBRO VITUAL CON ETIQUETAS, TIENE QUE TENER 1. H1, TITULO DEL LIBRO, H2 SUBTITULO CUALQUIER SECCION DEL LIBRO , PARRAFO DEL LIBRO RELACIONADO AL H2, DOS VECES, IMG DEL LIBRO Y 3 PAGINAS CADA PAGINA DEBE PODER ACCEDER A LA SIGUIENTE Y ADEMAS LA PRIMERA PAGINA NO PUEDE CONECTARSE CON LA ULTIMA Y VICEVERSA. */
 
 
 }
